@@ -1,0 +1,8 @@
+"use strict";(()=>{(self.webpackChunkapp=self.webpackChunkapp||[]).push([[405],{74192:function(K,o,a){a.r(o),a.d(o,{EntityLinksCard:function(){return u}});var c=a(73495),e=a(52160),t=a(2784),M=a(79692),D=a(90436),O=a(77277),s=a(49558),P=a(33182),d=a(30705),g=a(82394),U=a.n(g),W=a(34520),m=a(76635),f=a.n(m),y=a(49462),v=a(19928),p=a.n(v),x=a(52963),k=a(75650),S=a(32272),b=a(88285),z=a(92573);const L=`metadata:
+  name: example
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard`,C=(0,M.Z)(n=>({code:{borderRadius:6,margin:`${n.spacing(2)}px 0px`,background:n.palette.type==="dark"?"#444":n.palette.common.white}}),{name:"PluginCatalogEntityLinksEmptyState"});function h(){const n=C();return t.createElement(t.Fragment,null,t.createElement(D.Z,{variant:"body1"},"No links defined for this entity. You can add links to your entity YAML as shown in the highlighted example below:"),t.createElement("div",{className:n.code},t.createElement(s.Oi,{text:L,language:"yaml",showLineNumbers:!0,highlightedNumbers:[3,4,5,6],customStyle:{background:"inherit",fontSize:"115%"}})),t.createElement(O.Z,{variant:"contained",color:"primary",target:"_blank",href:"https://backstage.io/docs/features/software-catalog/descriptor-format#links-optional"},"Read more"))}const u=n=>{var i;const{cols:I=void 0,variant:R}=n,{entity:r}=(0,c.X2)(),A=(0,d.qD)(),T=_=>{var l;return _&&(l=A.getSystemIcon(_))!=null?l:e.Z},E=(i=r==null?void 0:r.metadata)==null?void 0:i.links;return t.createElement(s.rJ,{title:"Links",variant:R},!E||E.length===0?t.createElement(h,null):t.createElement(P.L,{cols:I,items:E.map(({url:_,title:l,icon:B})=>({text:l!=null?l:_,href:_,Icon:T(B)}))}))}}}]);})();
+
+//# sourceMappingURL=405.02c6d8e0.chunk.js.map
